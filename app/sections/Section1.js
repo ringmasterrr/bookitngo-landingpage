@@ -21,9 +21,9 @@ const Section1 = () => {
           >
             for a New Era of
           </h3>
-
+           
           <h3
-            className="poppins font-bold  text-[#00283C] xl:text-5xl lg:text-[2.6] text-3xl md:leading-[6rem] leading-[3rem]"  
+            className="poppins font-bold  text-[#00283C] xl:text-5xl lg:text-[2.6] text-3xl md:leading-[6rem] leading-[3rem] md:py-0 py-4"  
           >
             Decentralized Accessibility!
           </h3>
