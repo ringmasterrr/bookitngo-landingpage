@@ -32,7 +32,7 @@ const Accordion = ({ title, answer }) => {
         </div>
       </button>
       <div
-        className={`grid overflow-hidden transition-all duration-300 ease-in-out lato py-6 w-10/12 ${
+        className={`grid overflow-hidden transition-all duration-300 ease-in-out lato py-1 w-10/12 ${
           accordionOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
         }`}
         style={{ fontSize: "18px" }}
