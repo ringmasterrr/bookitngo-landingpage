@@ -16,9 +16,7 @@
   }
 }
 
-body {
-  color: white;
-}
+
 
 @layer utilities {
   .text-balance {
@@ -32,4 +30,48 @@ body {
 
 .lato {
   font-family: var(--font-lato);
+}
+
+.reach_head {
+
+  font-size: clamp(35px, 5vw, 2.5rem)
+
+}
+
+.reach_subhead {
+
+  font-size: clamp(20px, 5vw, 1.5rem)
+
+}
+
+.separator {
+  border-top: 1px solid;
+  border-image-source: linear-gradient(270deg, #00415C -8.63%, #4E65B6 50.54%, rgba(0, 56, 255, 0) 102.7%);
+  border-image-slice: 1;
+  width: 80%; /* Or specify a specific width */
+}
+
+
+.large_head {
+  font-size: clamp(38px, 5vw, 3rem)
+}
+
+.large_para{
+  font-size: clamp(20px, 5vw, 1.7rem)
+}
+
+.why_head {
+  font-size: clamp(12px, 5vw, 1.8rem)
+}
+
+.why_para{
+  font-size: clamp(8px, 5vw, 1rem)
+}
+
+.med_head {
+  font-size: clamp(12px, 5vw, 1.8rem)
+}
+
+.med_para{
+  font-size: clamp(8px, 5vw, 1.3rem)
 }

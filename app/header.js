@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-transparent">
-      <div className="max-w-full m-5 px-2 md:px-6 lg:px-8">
+      <div className="max-w-full m-5 px-2 md:px-6 lg:px-16 ">
         <div className="relative flex items-center justify-between h-16">
           <div className="absolute inset-y-0 left-0 flex items-center md:hidden">
             <button
