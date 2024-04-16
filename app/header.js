@@ -20,7 +20,7 @@ const Navbar = () => {
             <button
               onClick={toggleMenu}
               type="button"
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white transition duration-150 ease-in-out"
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:gray-700 focus:outline-none focus:gray-700 transition duration-150 ease-in-out"
               aria-label="Main menu"
               aria-expanded="false"
             >
@@ -47,17 +47,17 @@ const Navbar = () => {
             </div>
             <div className="hidden md:block md:ml-6 place-self-center justify-self-center w-full max-w-[25rem] mr-52">
               <div className="flex justify-between">
-                <Link href="/about">
+                <Link href="https://bookitngo.in/">
                   <div className="text-[#000000] hover:text-[#00415C] hover:font-bold px-3 py-2 md:text-lg text-sm font-medium">
                     Home
                   </div>
                 </Link>
-                <Link href="/services">
+                <Link href="https://bookitngo.in/home/AboutUs">
                   <div className="text-[#000000] hover:text-[#00415C] hover:font-bold px-3 py-2 md:text-lg text-sm font-medium">
                   About
                   </div>
                 </Link>
-                <Link href="/contact">
+                <Link href="http://marketplace.bookitngo.com/">
                   <div className="text-[#000000] hover:text-[#00415C] hover:font-bold px-3 py-2 md:text-lg text-sm font-medium">
                   Marketplace
                   </div>
@@ -67,7 +67,7 @@ const Navbar = () => {
           </div>
           <div className="hidden md:block md:ml-6">
             <div className="flex">
-              <Link href="/register">
+              <Link href="https://bookitngo.in/">
               <Image
                     src={"/button.svg"}
                     alt="logo"
@@ -81,25 +81,25 @@ const Navbar = () => {
         </div>
       </div>
       
-      <div className={`${isOpen ? "block" : "hidden"} md:hidden`}>
-        <div className="px-2 pt-2 pb-3">
-          <Link href="/about">
-            <div className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-700 hover:text-white">
+      <div className={`${isOpen ? "block" : "hidden"} md:hidden `}>
+        <div className="px-2 pt-2 pb-3 ">
+          <Link href="https://bookitngo.in/">
+            <div className="block px-3 py-2 text-base font-medium hover:border-b text-gray-800  ">
+              Home
+            </div>
+          </Link>
+          <Link href="https://bookitngo.in/home/AboutUs">
+            <div className="block px-3 py-2 text-base font-medium hover:border-b text-gray-800  mt-1">
               About
             </div>
           </Link>
-          <Link href="/services">
-            <div className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-700 hover:text-white mt-1">
-              Services
+          <Link href="http://marketplace.bookitngo.com/">
+            <div className="block px-3 py-2 text-base font-medium hover:border-b text-gray-800   mt-1">
+              Marketplace
             </div>
           </Link>
-          <Link href="/contact">
-            <div className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-700 hover:text-white mt-1">
-              Contact
-            </div>
-          </Link>
-          <Link href="/register">
-            <div className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-700 hover:text-white mt-1">
+          <Link href="https://bookitngo.in/">
+            <div className="block px-3 py-2 rounded text-base font-medium  text-gray-800  mt-1">
               Register
             </div>
           </Link>

@@ -15,7 +15,7 @@ const Accordion = ({ title, answer }) => {
   };
 
   return (
-    <div className="py-8 border-b border-[#D4D2E3]  xl:w-[98%] w-[80%]">
+    <div className="py-8 border-b border-[#D4D2E3]  xl:w-[90%] w-[80%]">
       <button
         onClick={() => setAccordionOpen(!accordionOpen)}
         className="flex justify-between w-full text-black"

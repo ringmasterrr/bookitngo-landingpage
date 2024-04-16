@@ -38,9 +38,11 @@ const Section1 = () => {
             Bookitngo- Your gateway to seamless travel
             <br /> experiences
           </h3>
-          <button className="bg-[#00283C] text-white rounded-md w-[8rem] h-[3rem] my-8">
+          <a href="https://bookitngo.in/">
+          <button className="bg-[#00283C] text-white rounded-md w-[8rem] h-[3rem] my-8" >
             Explore
           </button>
+          </a>
         </div>
         <div className="xl:max-w-[50%] w-[90%] xl:pl-4">
           <div className="flex gap-8 xl:justify-center">

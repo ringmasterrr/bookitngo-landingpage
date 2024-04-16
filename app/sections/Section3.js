@@ -6,7 +6,7 @@ const Section3 = () => {
     <div className="relative flex flex-col items-center justify-center">
       <div className="flex flex-col items-center justify-center w-[80%] py-16 gap-2 ">
         <h3 className="large_head poppins font-bold text-[#000000] ">
-          Why
+          Why&nbsp;
           <span className="large_head poppins font-bold text-[#00415C]">
             Bookitngo
           </span>

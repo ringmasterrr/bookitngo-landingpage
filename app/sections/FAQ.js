@@ -4,7 +4,7 @@ import Accordion from "./accordian";
 const FAQ = () => {
   return (
     <div className="rounded-lg mt-40 flex flex-col justify-center items-center ">
-      <div className="flex md:flex-row flex-col md:gap-6 text-center justify-center">
+      <div className="flex md:flex-row flex-col md:gap-6 text-center justify-center mb-12">
         <h3 className="large_head text-center poppins font-bold text-[#000000] ">
           Frequently Asked
         </h3>
