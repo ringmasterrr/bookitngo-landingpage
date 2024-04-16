@@ -8,32 +8,27 @@ const Section1 = () => {
         <div className="xl:max-w-[50%] w-[90%] flex flex-col justify-between items-stretch pt-4">
           <h3
             className="poppins font-bold text-black capitalize xl:text-[4.5rem] lg:text-[4rem] text-4xl md:leading-[5rem] leading-[3rem] "
-      
           >
             Revolutionising Travel:
           </h3>
           <h3
-            className="poppins text-black xl:text-[2.65rem] lg:text-[2.3rem] text-2xl md:leading-[4rem] leading-[4rem]"
-             
+            className="poppins text-black xl:text-[2.65rem] lg:text-[2.3rem] text-2xl md:leading-[4rem] leading-[3rem]"    
           >
             Tokenizing Flights and Hotels
           </h3>
           <h3
-            className="poppins text-black xl:text-[2.65rem] lg:text-[2.3rem] text-2xl md:leading-[5rem] leading-[4rem]"
-            
+            className="poppins text-black xl:text-[2.65rem] lg:text-[2.3rem] text-2xl md:leading-[5rem] leading-[3rem]"
           >
             for a New Era of
           </h3>
 
           <h3
-            className="poppins font-bold  text-[#00283C] xl:text-5xl lg:text-[2.6] text-3xl md:leading-[6rem] leading-[3rem]"
-           
+            className="poppins font-bold  text-[#00283C] xl:text-5xl lg:text-[2.6] text-3xl md:leading-[6rem] leading-[3rem]"  
           >
             Decentralized Accessibility!
           </h3>
           <h3
             className="poppins  text-[#00283C] py-5 text-2xl "
-            
           >
             Bookitngo- Your gateway to seamless travel
             <br /> experiences
