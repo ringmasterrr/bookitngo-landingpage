@@ -7,9 +7,9 @@ const Footer = () => {
     <div className="relative">
 
       <div className="absolute -top-[20rem] flex flex-col items-center justify-center mt-28 w-full ">
-        <div className=" relative bg-[#AEBABF] w-[65%] rounded-3xl p-8 flex items-center justify-between">
+        <div className=" relative bg-[#AEBABF] md:w-[65%] w-[90%] rounded-3xl p-8 flex items-center justify-between">
           <div className="flex flex-col justify-between gap-3 w-[60%]">
-            <h3 className="text-[#112211] text-5xl font-bold">
+            <h3 className="text-[#112211] md:text-5xl text-3xl font-bold">
               Subscribe <br />
               Newsletter
             </h3>
