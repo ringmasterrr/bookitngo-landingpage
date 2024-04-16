@@ -33,14 +33,14 @@ const Section5 = () => {
           alt="roadmap"
           height={430}
           width={840}
-          className="px-2 md:w-full w-9/12"
+          className="px-2 md:w-full w-11/12"
         />
         <Image
           src={"/asset2.svg"}
           alt="roadmap"
           height={430}
           width={840}
-          className="px-2 md:w-full w-9/12"
+          className="px-2 md:w-full w-11/12"
         />
       </div>
     </div>
