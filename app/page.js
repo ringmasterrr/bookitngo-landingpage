@@ -12,16 +12,16 @@ import Section8 from "./sections/Section8";
 export default function Home() {
   return (
     <>
-    <Navbar/>
-    <Section1/>
-    <Section2/>
-    <Section3/>
-    <Section4/>
-    <Section5/>
-    <Section6/>
-    <Section7/>
-    <Section8/>
-    <Footer/>
+      <Navbar />
+      <Section1 />
+      <Section2 />
+      <Section3 />
+      <Section4 />
+      <Section5 />
+      <Section6 />
+      <Section7 />
+      <Section8 />
+      <Footer />
     </>
   );
 }

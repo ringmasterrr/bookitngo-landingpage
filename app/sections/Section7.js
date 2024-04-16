@@ -4,7 +4,7 @@ import React from "react";
 const Section7 = () => {
   return (
     <div className=" flex flex-col xl:flex-row items-center justify-evenly">
-      <div className="relative xl:w-[35%] flex flex-col xl:items-start items-center xl:justify-evenly xl:text-start text-center py-9 gap-10 xl:px-0 px-28">
+      <div className="relative xl:w-[35%] flex flex-col xl:items-start items-center xl:justify-evenly xl:text-start text-center py-9 gap-10 xl:px-0 md:px-28">
         <Image
           src={"/decoration3.svg"}
           alt="deco"
@@ -28,7 +28,7 @@ const Section7 = () => {
       <div className="h-[30rem]">
         <Image
           src={"/empow.png"}
-          alt="dec"w
+          alt="dec"
           height={1100}
           width={550}
           className="w-full h-full self-center"

@@ -8,7 +8,7 @@ const Footer = () => {
 
       <div className="absolute -top-[20rem] flex flex-col items-center justify-center mt-28 w-full ">
         <div className=" relative bg-[#AEBABF] md:w-[65%] w-[90%] rounded-3xl p-8 flex items-center justify-between">
-          <div className="flex flex-col justify-between gap-3 w-[60%]">
+          <div className="flex flex-col justify-between gap-3 md:w-[60%]">
             <h3 className="text-[#112211] md:text-5xl text-3xl font-bold">
               Subscribe <br />
               Newsletter
@@ -38,20 +38,20 @@ const Footer = () => {
             alt="box"
             width={370}
             height={270}
-            className="absolute bottom-0 right-0"
+            className=" md:w-[24rem] w-24 absolute  md:-bottom-[0.0rem] right-0 "
           />
         </div>
       </div>
 
-      <footer className="bg-[#00283C] text-white py-8 h-96 flex items-end mt-[20rem] ">
-        <div className=" mx-auto px-4 flex flex-wrap items-start justify-between w-[60%]">
-          <div className="flex flex-col mb-4 sm:mb-0 w-1/5">
-            <div className="mr-4 ">
+      <footer className="bg-[#00283C] text-white py-8  md:h-96 h-[54rem] flex items-end mt-[20rem] ">
+        <div className=" mx-auto px-4 flex md:flex-row flex-col items-start justify-between md:w-[60%] w-[80%]">
+          <div className="flex flex-col mb-4 sm:mb-0 w-2/5">
+            <div className="md:mr-4 ">
               <Image
                 src="/whitelogo.svg"
                 alt="Logo"
-                width={100}
-                height={100}
+                width={300}
+                height={300}
                 className="w-28 h-28 items-start justify-start"
               />
             </div>

@@ -4,7 +4,7 @@ import React from "react";
 const Section1 = () => {
   return (
     <div>
-      <div className="flex xl:flex-row items-start flex-col mt-28 mx-16 gap-2">
+      <div className="flex xl:flex-row items-start flex-col mt-28 md:mx-16 mx-8 gap-2">
         <div className="xl:max-w-[50%] w-[90%] flex flex-col justify-center items-start pt-4">
           <h3
             className="poppins font-bold text-black capitalize"
@@ -87,8 +87,8 @@ const Section1 = () => {
           </div>
         </div>
       </div>
-      <div className="flex xl:flex-row  xl:items-start justify-between flex-col m-16 mt-48 ">
-        <div className="xl:max-w-[40rem] lato font-medium gap-4">
+      <div className="flex xl:flex-row  xl:items-start justify-between flex-col m-16 md:mt-48 ">
+        <div className="xl:max-w-[40rem] lato font-medium gap-4 mb-2">
           <h3 className="reach_head text-black text-4xl leading-snug">
             Enabling Enterprises to unlock Real Value of Assets through our
           </h3>

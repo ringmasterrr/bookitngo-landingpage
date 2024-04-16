@@ -5,7 +5,7 @@ const Section2 = () => {
   return (
     <div className="flex flex-col items-center justify-center">
       <div className="separator "></div>
-      <div className="flex xl:flex-row flex-col w-[80%] my-[5rem] xl:items-center xl:justify-center xl:gap-32 gap-8">
+      <div className="flex xl:flex-row flex-col md:w-[80%] w-[86%] my-[5rem] xl:items-center xl:justify-center xl:gap-32 gap-8">
         <div className="xl:w-[40%] w-[80%] flex items-center justify-center">
           <div className="flex items-center">
             <Image
@@ -13,14 +13,14 @@ const Section2 = () => {
               alt="Image 1"
               width={1000}
               height={1000}
-              className="object-cover max-w-[8rem] "
+              className="object-cover md:w-[8rem] w-[5rem] "
             />
             <Image
               src="/lockchain.svg"
               alt="Image 1"
               width={1000}
               height={1000}
-              className="object-cover w-full h-full pt-16 pl-4 "
+              className="object-cover md:w-full w-9/12 h-full pt-16 pl-4 "
             />
           </div>
         </div>
