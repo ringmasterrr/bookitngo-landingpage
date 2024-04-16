@@ -4,35 +4,35 @@ import React from "react";
 const Section1 = () => {
   return (
     <div>
-      <div className="flex xl:flex-row items-start flex-col mt-28 md:mx-16 mx-8 gap-2">
-        <div className="xl:max-w-[50%] w-[90%] flex flex-col justify-center items-start pt-4">
+      <div className="flex xl:flex-row items-stretch justify-between flex-col mt-28 md:mx-16 mx-8 gap-2">
+        <div className="xl:max-w-[50%] w-[90%] flex flex-col justify-between items-stretch pt-4">
           <h3
-            className="poppins font-bold text-black capitalize text-[4.5rem] xl:text-[3] "
+            className="poppins font-bold text-black capitalize xl:text-[4.5rem] lg:text-[4rem] text-4xl md:leading-[5rem] leading-[3rem] "
       
           >
             Revolutionising Travel:
           </h3>
           <h3
-            className="poppins text-black md:leading-[4.2rem] text-[2.65rem] xl:text-[3]"
+            className="poppins text-black xl:text-[2.65rem] lg:text-[2.3rem] text-2xl md:leading-[4rem] leading-[4rem]"
              
           >
             Tokenizing Flights and Hotels
           </h3>
           <h3
-            className="poppins text-black md:leading-[4.9rem] text-[2.65rem] xl:text-[3]"
+            className="poppins text-black xl:text-[2.65rem] lg:text-[2.3rem] text-2xl md:leading-[5rem] leading-[4rem]"
             
           >
             for a New Era of
           </h3>
 
           <h3
-            className="poppins font-bold  text-[#00283C] md:leading-[4.9rem] text-5xl "
+            className="poppins font-bold  text-[#00283C] xl:text-5xl lg:text-[2.6] text-3xl md:leading-[6rem] leading-[3rem]"
            
           >
             Decentralized Accessibility!
           </h3>
           <h3
-            className="poppins  text-[#00283C] lg:leading-[2rem] py-5 text-2xl "
+            className="poppins  text-[#00283C] py-5 text-2xl "
             
           >
             Bookitngo- Your gateway to seamless travel
@@ -89,6 +89,7 @@ const Section1 = () => {
           </div>
         </div>
       </div>
+
       <div className="flex xl:flex-row xl:items-start justify-between flex-col m-16 md:mt-48 ">
         <div className="xl:max-w-[40rem] lato font-medium gap-4 mb-2">
           <h3 className="reach_head text-black text-4xl leading-snug">
