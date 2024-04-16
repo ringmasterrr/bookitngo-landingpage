@@ -8,7 +8,7 @@ import Section5 from "./sections/Section5";
 import Section6 from "./sections/Section6";
 import Section7 from "./sections/Section7";
 import Section8 from "./sections/Section8";
-import Subfooter from "./sections/subFooter";
+import Subfooter from "./sections/Subfooter";
 
 export default function Home() {
   return (
