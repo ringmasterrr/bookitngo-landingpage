@@ -23,7 +23,7 @@ const Section7 = () => {
           assets, guaranteeing a seamless and trustworthy experience for all our
           users.
         </p>
-        <Image src={"/button2.svg"} alt="button " width={328} height={64}/>
+        <Image src={"/Button2.svg"} alt="button " width={328} height={64}/>
       </div>
       <div className="h-[30rem]">
         <Image
