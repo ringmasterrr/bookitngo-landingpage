@@ -5,7 +5,7 @@ const Section1 = () => {
   return (
     <div>
       <div className="flex xl:flex-row items-stretch justify-between flex-col mt-28 md:mx-16 mx-8 gap-2">
-        <div className="xl:max-w-[50%] w-[90%] flex flex-col justify-between items-stretch pt-4">
+        <div className="xl:max-w-[50%] w-[90%] flex flex-col justify-between items-stretch sm:pt-4">
           <h3
             className="poppins font-bold text-black capitalize xl:text-[4.5rem] lg:text-[4rem] text-4xl md:leading-[5rem] leading-[3rem] "
           >
@@ -28,7 +28,7 @@ const Section1 = () => {
             Decentralized Accessibility!
           </h3>
           <h3
-            className="poppins  text-[#00283C] py-5 text-2xl "
+            className="poppins  text-[#00283C] py-3 text-2xl "
           >
             Bookitngo- Your gateway to seamless travel
             <br /> experiences
