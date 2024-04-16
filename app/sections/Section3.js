@@ -11,14 +11,12 @@ const Section3 = () => {
             Bookitngo
           </span>
         </h3>
-
         <p className="large_para poppins font-medium text-[#000000]  text-center py-8">
           Experience seamless booking, tokenized assets, and a revolutionary
           secondary marketplace for trading NFTs, unlocking a new dimension of
           travel and digital ownership.
         </p>
       </div>
-
       <div>
         <div className="grid xl:grid-cols-2  w-full gap-8 gap-y-14 xl:my-0 my-8 md:mx-0 px-6  ">
           <div className="flex items-start justify-start gap-8 md:w-[40rem]">
@@ -102,24 +100,21 @@ const Section3 = () => {
             </div>
           </div>
         </div>
-
       </div>
-
       <Image
-        src={"/decoration1.svg"}
+        src={"/Decoration1.svg"}
         alt="deco"
         width={30}
         height={1000}
         className="absolute left-0 top-[7%] h-[1000px] hidden lg:block"
       />
       <Image
-        src={"/decoration2.svg"}
+        src={"/Decoration2.svg"}
         alt="deco"
         width={30}
         height={1000}
         className="absolute right-0 top-[7%] h-[1000px] hidden lg:block"
       />
-
     </div>
   );
 };
