@@ -1,12 +1,16 @@
-"use client"
+"use client";
 
 import React, { useState } from "react";
 import Image from "next/image";
 import openIcon from "../../public/close.svg";
-import closeIcon from "../../public/open.svg"; 
+import closeIcon from "../../public/open.svg";
 
+interface AccordionProps {
+  title: string;
+  answer: string;
+}
 
-const Accordion = ({ title, answer }) => {
+const Accordion = ({ title, answer }: AccordionProps) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
 
   const iconStyle = {
@@ -25,15 +29,21 @@ const Accordion = ({ title, answer }) => {
         <div style={iconStyle}>
           <Image
             src={accordionOpen ? openIcon : closeIcon}
-            alt={accordionOpen ? "Open Icon" : "Close Icon"}
+            alt={
+              accordionOpen.toString() === "true" ? "Open Icon" : "Close Icon"
+            }
             width={40}
             height={40}
+            layout="intrinsic"
+            loading="eager"
           />
         </div>
       </button>
       <div
         className={`grid overflow-hidden transition-all duration-300 ease-in-out lato py-6 w-10/12 ${
-          accordionOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
+          accordionOpen
+            ? "grid-rows-[1fr] opacity-100"
+            : "grid-rows-[0fr] opacity-0"
         }`}
         style={{ fontSize: "18px" }}
       >
