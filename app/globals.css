@@ -53,11 +53,11 @@
 
 
 .large_head {
-  font-size: clamp(38px, 5vw, 3rem)
+  font-size: clamp(32px, 5vw, 3rem)
 }
 
-.large_para{
-  font-size: clamp(16px, 4.5vw, 1.7rem)
+.large_para {
+  font-size: clamp(16px, 3vw, 1.5rem)
 }
 
 .why_head {

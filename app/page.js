@@ -12,7 +12,7 @@ import Subfooter from "./sections/Subfooter";
 
 export default function Home() {
   return (
-    <>
+    <div className="overflow-hidden">
       <Navbar />
       <Section1 />
       <Section2 />
@@ -24,6 +24,6 @@ export default function Home() {
       <Section8 />
       <Footer />
       <Subfooter/>
-    </>
+    </div>
   );
 }

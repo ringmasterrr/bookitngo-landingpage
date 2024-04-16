@@ -3,8 +3,8 @@ import React from "react";
 
 const Section7 = () => {
   return (
-    <div className=" flex flex-col xl:flex-row items-center justify-evenly">
-      <div className="relative xl:w-[35%] flex flex-col xl:items-start items-center xl:justify-evenly xl:text-start text-center py-9 gap-10 xl:px-0 md:px-28">
+    <div className=" flex flex-col xl:flex-row items-center justify-evenly mx-12">
+      <div className="relative xl:w-[40%] flex flex-col xl:items-start items-center xl:justify-center xl:text-start text-center py-9 gap-10 xl:px-0 ">
         <Image
           src={"/decoration3.svg"}
           alt="deco"
@@ -29,9 +29,9 @@ const Section7 = () => {
         <Image
           src={"/empow.png"}
           alt="dec"
-          height={1100}
-          width={550}
-          className="w-full h-full self-center"
+          height={550}
+          width={1100}
+          className="object-cover w-auto max-h-[22rem] self-center"
         />
       </div>
     </div>

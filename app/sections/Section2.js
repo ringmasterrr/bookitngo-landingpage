@@ -5,8 +5,8 @@ const Section2 = () => {
   return (
     <div className="flex flex-col items-center justify-center">
       <div className="separator "></div>
-      <div className="flex xl:flex-row flex-col md:w-[80%] w-[86%] my-[5rem] xl:items-center xl:justify-center xl:gap-32 gap-8">
-        <div className="xl:w-[40%] w-[80%] flex items-center justify-center">
+      <div className="flex xl:flex-row flex-col md:w-[80%] my-[4rem] items-center justify-center xl:gap-32 gap-8">
+        <div className="xl:w-[50%] w-[90%] flex items-center justify-center">
           <div className="flex items-center">
             <Image
               src="/b.png"
@@ -24,9 +24,9 @@ const Section2 = () => {
             />
           </div>
         </div>
-        <div className="xl:w-[60%] w-[80%] flex flex-col items-center justify-center">
-          <h3 className="large_head poppins font-bold text-[#00415C] xl:py-20 py-8">Bookitngo x Blockchain</h3>
-          <p className="large_para lato font-medium ">
+        <div className=" w-[90%] flex flex-col items-center justify-center">
+          <h3 className="large_head poppins font-bold text-[#00415C] xl:py-14 py-8">Bookitngo x Blockchain</h3>
+          <p className="large_para lato font-medium md:text-2xl text:xl px-6 ">
             At Bookitngo, our vision is to redefine the way people experience
             travel. We envision a world where booking flights and hotels is not
             just a transaction, but a seamless journey enriched with

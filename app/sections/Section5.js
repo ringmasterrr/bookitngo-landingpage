@@ -27,20 +27,20 @@ const Section5 = () => {
         </p>
       </div>
       
-      <div className="flex md:flex-row flex-col items-center justify-center gap-10 mx-4 ">
+      <div className="flex xl:flex-row flex-col items-center justify-center gap-10 mx-4 ">
         <Image
           src={"/asset1.svg"}
           alt="roadmap"
           height={430}
           width={840}
-          className="px-2 md:w-full w-11/12"
+          className="px-2 md:max-w-[38rem]  "
         />
         <Image
           src={"/asset2.svg"}
           alt="roadmap"
           height={430}
           width={840}
-          className="px-2 md:w-full w-11/12"
+          className="px-2 md:max-w-[38rem] "
         />
       </div>
     </div>

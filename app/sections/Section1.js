@@ -7,33 +7,33 @@ const Section1 = () => {
       <div className="flex xl:flex-row items-start flex-col mt-28 md:mx-16 mx-8 gap-2">
         <div className="xl:max-w-[50%] w-[90%] flex flex-col justify-center items-start pt-4">
           <h3
-            className="poppins font-bold text-black capitalize"
-            style={{ fontSize: "clamp(45px, 5vw, 4.55rem)" }}
+            className="poppins font-bold text-black capitalize text-[4.5rem] xl:text-[3] "
+      
           >
             Revolutionising Travel:
           </h3>
           <h3
-            className="poppins text-black lg:leading-[4.2rem]"
-            style={{ fontSize: "clamp(30px, 5vw, 2.6rem)" }}
+            className="poppins text-black md:leading-[4.2rem] text-[2.65rem] xl:text-[3]"
+             
           >
             Tokenizing Flights and Hotels
           </h3>
           <h3
-            className="poppins text-black lg:leading-[4.9rem]"
-            style={{ fontSize: "clamp(30px, 5vw, 2.6rem)" }}
+            className="poppins text-black md:leading-[4.9rem] text-[2.65rem] xl:text-[3]"
+            
           >
             for a New Era of
           </h3>
 
           <h3
-            className="poppins font-bold  text-[#00283C] lg:leading-[4.9rem]"
-            style={{ fontSize: "clamp(30px, 5vw, 3rem)" }}
+            className="poppins font-bold  text-[#00283C] md:leading-[4.9rem] text-5xl "
+           
           >
             Decentralized Accessibility!
           </h3>
           <h3
-            className="poppins  text-[#00283C] lg:leading-[2rem] py-5"
-            style={{ fontSize: "clamp(16px, 5vw, 1.6rem)" }}
+            className="poppins  text-[#00283C] lg:leading-[2rem] py-5 text-2xl "
+            
           >
             Bookitngo- Your gateway to seamless travel
             <br /> experiences
@@ -44,9 +44,9 @@ const Section1 = () => {
           </button>
           </a>
         </div>
-        <div className="xl:max-w-[50%] w-[90%] xl:pl-4">
+        <div className=" min-w-[50%] xl:pl-4 ">
           <div className="flex gap-8 xl:justify-center">
-            <div className=" flex flex-col gap-4">
+            <div className=" flex flex-col gap-4 h-full sm:w-[80%] ">
               <div className="photo">
                 <Image
                   src="/collage1.png"
@@ -66,7 +66,7 @@ const Section1 = () => {
                 />
               </div>
             </div>
-            <div className="column flex flex-col gap-4">
+            <div className="column flex flex-col gap-4 sm:w-[80%] ">
               <div className="photo">
                 <Image
                   src="/collage2.png"
@@ -89,7 +89,7 @@ const Section1 = () => {
           </div>
         </div>
       </div>
-      <div className="flex xl:flex-row  xl:items-start justify-between flex-col m-16 md:mt-48 ">
+      <div className="flex xl:flex-row xl:items-start justify-between flex-col m-16 md:mt-48 ">
         <div className="xl:max-w-[40rem] lato font-medium gap-4 mb-2">
           <h3 className="reach_head text-black text-4xl leading-snug">
             Enabling Enterprises to unlock Real Value of Assets through our

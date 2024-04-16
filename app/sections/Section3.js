@@ -20,6 +20,7 @@ const Section3 = () => {
       <div>
         <div className="grid xl:grid-cols-2  w-full gap-8 gap-y-14 xl:my-0 my-8 md:mx-0 px-6  ">
           <div className="flex items-start justify-start gap-8 md:w-[40rem]">
+           
             <Image
               src={"/Union.svg"}
               alt="reach"
@@ -27,11 +28,12 @@ const Section3 = () => {
               height={100}
               className="w-24 "
             />
+
             <div className="flex flex-col items-start justify-center">
               <h3 className="why_head lato font-bold ">
                 Expertise and Experience
               </h3>
-              <h3 className="why_subhead lato font-normal ">
+              <h3 className="why_subhead lato font-normal max-w-[30rem] text-xl">
                 With a team of seasoned professionals in Blockchain technology,
                 finance, and asset management, we bring a wealth of expertise to
                 the table. We have a deep understanding of the tokenisation
@@ -52,7 +54,7 @@ const Section3 = () => {
               <h3 className="why_head lato font-bold ">
                 Cutting-Edge Technology
               </h3>
-              <h3 className="why_subhead lato font-normal ">
+              <h3 className="why_subhead lato font-normal max-w-[30rem] text-xl">
                 We leverage the latest advancements in Blockchain technology to
                 provide a secure, efficient, and scalable platform, by
                 implementing modular Blockchain in our protocol. Our robust
@@ -71,7 +73,7 @@ const Section3 = () => {
             />
             <div className="flex flex-col items-start justify-center">
               <h3 className="why_head lato font-bold ">Global Marketplace</h3>
-              <h3 className="why_subhead lato font-normal ">
+              <h3 className="why_subhead lato font-normal max-w-[30rem] text-xl">
                 Our platform offers access to a global network of investors,
                 expanding the reach and visibility of your assets. We connect
                 you with a diverse pool of potential buyers, ensuring liquidity
@@ -91,7 +93,7 @@ const Section3 = () => {
               <h3 className="why_head lato font-bold ">
                 Regulatory Compliance
               </h3>
-              <h3 className="why_subhead lato font-normal ">
+              <h3 className="why_subhead lato font-normal max-w-[30rem] text-xl ">
                 We prioritize compliance with regulatory frameworks to ensure a
                 transparent and legally compliant protocol. By partnering with
                 us, you can navigate the complexities of tokenisation within a

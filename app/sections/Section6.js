@@ -21,8 +21,8 @@ const Section6 = () => {
         </p>
       </div>
 
-      <div className="flex md:flex-row flex-col items-center justify-evenly w-10/12 mx-36 gap-5">
-        <div className="border-[#BCBCBC] rounded border flex flex-col items-center justify-start md:w-[27rem] h-[33rem] p-10 gap-8">
+      <div className="flex xl:flex-row flex-col items-center justify-evenly w-10/12 mx-36 gap-5">
+        <div className="border-[#BCBCBC] rounded border flex flex-col items-center justify-start md:w-[27rem] min-h-[38rem] p-10 gap-8">
           <Image
             src={"/1.svg"}
             alt="1"
@@ -44,7 +44,7 @@ const Section6 = () => {
             accessible representation of your travel assets.
           </p>
         </div>
-        <div className="border-[#BCBCBC] rounded border flex flex-col items-center justify-start md:w-[27rem] h-[33rem] p-10 gap-8">
+        <div className="border-[#BCBCBC] rounded border flex flex-col items-center justify-start md:w-[27rem] min-h-[38rem] p-10 gap-8">
           <Image
             src={"/2.svg"}
             alt="1"
@@ -66,7 +66,7 @@ const Section6 = () => {
             marketplace for managing their travel plans.
           </p>
         </div>
-        <div className="border-[#BCBCBC] rounded border flex flex-col items-center justify-start md:w-[27rem] h-[33rem] p-10 gap-8">
+        <div className="border-[#BCBCBC] rounded border flex flex-col items-center justify-start md:w-[27rem] min-h-[38rem] p-10 gap-8">
           <Image
             src={"/3.svg"}
             alt="1"
