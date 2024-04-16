@@ -57,7 +57,7 @@
 }
 
 .large_para{
-  font-size: clamp(20px, 5vw, 1.7rem)
+  font-size: clamp(16px, 4.5vw, 1.7rem)
 }
 
 .why_head {
