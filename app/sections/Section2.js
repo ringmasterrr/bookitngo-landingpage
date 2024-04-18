@@ -20,12 +20,12 @@ const Section2 = () => {
               alt="Image 1"
               width={1000}
               height={1000}
-              className="object-cover md:w-full w-9/12 h-full pt-16 pl-4 "
+              className="object-cover md:w-full w-9/12 h-full pt-16 pl-1 "
             />
           </div>
         </div>
         <div className=" w-[90%] flex flex-col items-center justify-center">
-          <h3 className="large_head poppins font-bold text-[#00415C] xl:py-14 py-8">Bookitngo x Blockchain</h3>
+          <h3 className="large_head poppins font-bold text-[#00415C] xl:py-14 py-8 text-center ">Bookitngo x Blockchain</h3>
           <p className="large_para lato font-medium md:text-2xl text:xl px-6 ">
             At Bookitngo, our vision is to redefine the way people experience
             travel. We envision a world where booking flights and hotels is not

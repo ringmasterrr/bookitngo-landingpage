@@ -3,7 +3,7 @@ import React from "react";
 
 const Section6 = () => {
   return (
-    <div className="flex flex-col items-center justify-center py-16 mt-32 mb-8">
+    <div className="flex flex-col items-center justify-center py-16 sm:mt-32 mt-8 mb-8">
       <div className="separator"></div>
       <div className="flex flex-col items-center justify-center w-[80%] py-16 ">
         <div className="flex md:flex-row flex-col md:gap-6">

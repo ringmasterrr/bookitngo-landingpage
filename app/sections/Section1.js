@@ -23,14 +23,14 @@ const Section1 = () => {
           </h3>
            
           <h3
-            className="poppins font-bold  text-[#00283C] xl:text-5xl lg:text-[2.6] text-3xl md:leading-[6rem] leading-[3rem] md:py-0 py-4"  
+            className="poppins font-bold  text-[#00283C] xl:text-5xl lg:text-[2.6] text-3xl md:leading-[6rem] leading-[3rem] md:py-0 pt-4 pb-1 "  
           >
             Decentralized Accessibility!
           </h3>
           <h3
-            className="poppins  text-[#00283C] py-3 text-2xl "
+            className="poppins  text-[#00283C] py-3 sm:text-2xl text-[1.6rem] md:leading-tight leading-[3rem]"
           >
-            Bookitngo- Your gateway to seamless travel
+            Bookitngo - Your gateway to seamless travel
             <br /> experiences
           </h3>
           <a href="https://bookitngo.in/">
@@ -85,41 +85,41 @@ const Section1 = () => {
         </div>
       </div>
 
-      <div className="flex xl:flex-row xl:items-start justify-between flex-col m-16 md:mt-48 ">
+      <div className="flex xl:flex-row xl:items-start justify-between flex-col sm:m-16 m-8 md:mt-48 ">
         <div className="xl:max-w-[40rem] lato font-medium gap-4 mb-2">
-          <h3 className="reach_head text-black text-4xl leading-snug">
+          <h3 className="reach_head text-black sm:text-4xl text-3xl leading-snug">
             Enabling Enterprises to unlock Real Value of Assets through our
           </h3>
-          <h3 className="reach_head text-[#00415C] font-normal text-4xl">
+          <h3 className="reach_head text-[#00415C] sm:font-normal font-semibold sm:text-4xl text-3xl sm:leading-none leading-snug  ">
             borderless global reach
           </h3>
         </div>
         <div className="xl:w-[50%] w-full">
         <div className="grid md:grid-cols-2  gap-8 gap-y-14 xl:my-0 my-8 ">
-          <div className="flex items-start justify-start gap-8 w-[23rem]" >
+          <div className="flex items-start justify-start gap-8 sm:w-[23rem] w-[20rem]" >
             <Image src={"/reach2.svg"} alt="reach" width={100} height={100} className="w-16 h-16 pt-2"/>
-            <div className="flex flex-col items-start justify-center">
+            <div className="flex flex-col items-start justify-center sm:w-auto w-[240px]">
               <h3 className="reach_head lato font-bold ">6+</h3>
               <h3 className="reach_subhead lato font-normal ">Industries</h3>
             </div>
           </div>
-          <div className="flex items-start justify-start gap-8 w-[23rem]" >
+          <div className="flex items-start justify-start gap-8  sm:w-[23rem] w-[20rem]" >
             <Image src={"/reach1.svg"} alt="reach" width={100} height={100} className="w-16 h-16 pt-2"/>
-            <div className="flex flex-col items-start justify-center">
+            <div className="flex flex-col items-start justify-center sm:w-auto w-[240px]">
               <h3 className="reach_head lato font-bold ">100K+</h3>
               <h3 className="reach_subhead lato font-normal ">Waitlisted Retail Investors</h3>
             </div>
           </div>
-          <div className="flex items-start   justify-start gap-8 w-[23rem]" >
+          <div className="flex items-start   justify-start gap-8  sm:w-[23rem] w-[20rem]" >
             <Image src={"/reach3.svg"} alt="reach" width={100} height={100} className="w-16 h-16 pt-2"/>
-            <div className="flex flex-col items-start justify-center">
+            <div className="flex flex-col items-start justify-center sm:w-auto w-[240px]">
               <h3 className="reach_head lato font-bold ">160+</h3>
               <h3 className="reach_subhead lato font-normal ">Access to Institutional Asset manager</h3>
             </div>
           </div>
-          <div className="flex items-start justify-start gap-8 w-[23rem]" >
+          <div className="flex items-start justify-start gap-8  sm:w-[23rem] w-[20rem]" >
             <Image src={"/reach4.svg"} alt="reach" width={100} height={100} className="w-16 h-16 pt-2"/>
-            <div className="flex flex-col items-start justify-center">
+            <div className="flex flex-col items-start justify-center sm:w-auto w-[240px]">
               <h3 className="reach_head lato font-bold ">55 million+</h3>
               <h3 className="reach_subhead lato font-normal ">Waitlisted AUM for Tokenisation</h3>
             </div>

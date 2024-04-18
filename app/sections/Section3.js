@@ -20,7 +20,7 @@ const Section3 = () => {
       <div>
         <div className="grid xl:grid-cols-2  w-full gap-8 gap-y-14 xl:my-0 my-8 md:mx-0 px-6  ">
           <div className="flex items-start justify-start gap-8 md:w-[40rem]">
-           
+           <div className=" sm:w-auto w-[13rem] flex items-center justify-center ">
             <Image
               src={"/Union.svg"}
               alt="reach"
@@ -28,7 +28,7 @@ const Section3 = () => {
               height={100}
               className="w-24 "
             />
-
+            </div>
             <div className="flex flex-col items-start justify-center">
               <h3 className="why_head lato font-bold ">
                 Expertise and Experience
@@ -43,6 +43,7 @@ const Section3 = () => {
             </div>
           </div>
           <div className="flex items-start justify-start gap-8 md:w-[40rem]">
+          <div className=" sm:w-auto w-[13rem] flex items-center justify-center ">
             <Image
               src={"/24H.svg"}
               alt="reach"
@@ -50,6 +51,7 @@ const Section3 = () => {
               height={100}
               className="w-24 "
             />
+            </div>
             <div className="flex flex-col items-start justify-center">
               <h3 className="why_head lato font-bold ">
                 Cutting-Edge Technology
@@ -64,6 +66,7 @@ const Section3 = () => {
             </div>
           </div>
           <div className="flex items-start justify-start gap-8 md:w-[40rem]">
+          <div className=" sm:w-auto w-[13rem] flex items-center justify-center ">
             <Image
               src={"/Local.svg"}
               alt="reach"
@@ -71,6 +74,7 @@ const Section3 = () => {
               height={100}
               className="w-24 "
             />
+            </div>
             <div className="flex flex-col items-start justify-center">
               <h3 className="why_head lato font-bold ">Global Marketplace</h3>
               <h3 className="why_subhead lato font-normal max-w-[30rem] text-xl">
@@ -82,6 +86,7 @@ const Section3 = () => {
             </div>
           </div>
           <div className="flex items-start justify-start gap-8 md:w-[40rem]">
+          <div className=" sm:w-auto w-[13rem] flex items-center justify-center ">
             <Image
               src={"/Quotes.svg"}
               alt="reach"
@@ -89,6 +94,7 @@ const Section3 = () => {
               height={100}
               className="w-24 "
             />
+            </div>
             <div className="flex flex-col items-start justify-center">
               <h3 className="why_head lato font-bold ">
                 Regulatory Compliance

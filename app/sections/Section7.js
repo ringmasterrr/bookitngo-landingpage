@@ -25,7 +25,7 @@ const Section7 = () => {
         </p>
         <Image src={"/Button2.svg"} alt="button " width={328} height={64}/>
       </div>
-      <div className="h-[30rem]">
+      <div className="sm:h-[30rem] h-auto sm:mb-0 mb-8">
         <Image
           src={"/empow.png"}
           alt="dec"
